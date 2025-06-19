@@ -44,10 +44,21 @@ az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --port 3306 --
 
 ---
 
+## Get ssh key details 
+```
+cat ~/.ssh/id_rsa.pub
+```
+## Get Public ip of VM 
+```
+az vm show --resource-group LAMP-ResourceGroup --name LampVM -d --query publicIps -o tsv
+
+```
+
 ## ✅ SSH into VM
 
 ```bash
 ssh azureuser@<Public-IP>
+ssh -i ~/.ssh/id_rsa.pem atul@20.125.41.159
 ```
 
 ---
