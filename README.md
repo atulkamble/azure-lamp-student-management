@@ -15,6 +15,9 @@
 ## ✅ Create Azure VM (Ubuntu 22.04)
 
 ```bash
+# log in to azure
+az login
+
 # Create resource group
 az group create --name LAMP-ResourceGroup --location eastus
 
