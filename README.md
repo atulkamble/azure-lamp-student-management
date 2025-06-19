@@ -22,12 +22,12 @@ az login
 ```
 az group create --name LAMP-ResourceGroup --location eastus
 ```
-# Create VM (Ubuntu 22.04)
+# Create VM (Ubuntu 24.04)
 ```
 az vm create \
   --resource-group LAMP-ResourceGroup \
   --name LampVM \
-  --image Ubuntu2204 \
+  --image Ubuntu2404 \
   --admin-username atul \
   --generate-ssh-keys \
   --size Standard_B1s
