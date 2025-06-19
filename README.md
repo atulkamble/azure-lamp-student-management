@@ -30,7 +30,7 @@ az vm create \
   --image Ubuntu2404 \
   --admin-username atul \
   --generate-ssh-keys \
-  --size Standard_B1s
+  --size Standard_D2s_v5
 ```
 
 **Open ports for HTTP, HTTPS, and MySQL**
