@@ -23,7 +23,7 @@ az vm create \
   --resource-group LAMP-ResourceGroup \
   --name LampVM \
   --image Ubuntu2204 \
-  --admin-username azureuser \
+  --admin-username atul \
   --generate-ssh-keys \
   --size Standard_B1s
 ```
