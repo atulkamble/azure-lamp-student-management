@@ -36,9 +36,9 @@ az vm create \
 **Open ports for HTTP, HTTPS, and MySQL**
 
 ```
-az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --port 80 --priority 1000
-az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --port 443 --priority 1001
-az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --port 3306 --priority 1002
+az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --port 80 --priority 1010
+az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --port 443 --priority 1020
+az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --port 3306 --priority 1030
 
 ```
 
