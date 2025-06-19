@@ -36,8 +36,7 @@ az vm create \
 **Open ports for HTTP, HTTPS, and MySQL**
 
 ```bash
-az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --port 80
-az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --port 3306
+az vm open-port --resource-group LAMP-ResourceGroup --name LampVM --ports 80 3306
 ```
 
 ---
