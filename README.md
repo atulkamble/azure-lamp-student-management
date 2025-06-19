@@ -111,6 +111,7 @@ sudo apt install git -y
 cd /var/www/html
 sudo git clone https://github.com/atulkamble/xampp-student-management-system.git student_management
 sudo chown -R www-data:www-data /var/www/html/student_management
+sudo cp -r student_management/*
 ```
 
 ---
